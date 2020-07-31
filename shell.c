@@ -15,9 +15,9 @@ int main(void)
 	char* token;						/* token of the character array */
 	int should_wait =1;					/* determine the wait status of parent */
 	int should_run = 1; 				/* flag to determine when to exit program */
-	printf("CS149 Shell from Duong Cao\n"); /* replace w/ name */
+	printf("Shell from Duong Cao\n"); /* replace w/ name */
 	while (should_run) {
-		printf("Duong-624>"); 				/* prompt- replace FirstName and L3SID */
+		printf("Duong>"); 				/* prompt- replace FirstName and L3SID */
 		fflush(stdout);
 		/* After reading user input, the steps are:
 		* (1) if the command is exit, set should_run to 0 to exit the while loop
